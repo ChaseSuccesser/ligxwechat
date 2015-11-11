@@ -1,0 +1,3 @@
+libraries:
+- name: "requests"
+  version: "2.7.0"
