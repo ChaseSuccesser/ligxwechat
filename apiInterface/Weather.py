@@ -23,8 +23,6 @@ class Weather(object):
             basicInfoMap = weatherAllInfoMap['basic']
             weatherUsefulInfpList.append('城市纬度:'+basicInfoMap['lat'].encode("utf-8"))
             weatherUsefulInfpList.append('城市经度:'+basicInfoMap['lon'].encode("utf-8"))
-            updateInfoMap = basicInfoMap['update']
-            weatherUsefulInfpList.append('当地时间:'+updateInfoMap['loc'].encode("utf-8"))
 
             #------------实况天气----------------
             todayWeatherInfpMap = weatherAllInfoMap['now']
