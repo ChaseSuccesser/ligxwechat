@@ -10,7 +10,7 @@ class Configuation(object):
             self.host = '127.0.0.1'
             self.port = 3306
             self.user = 'root'
-            self.password = ''
+            self.password = 'root'
             self.db = 'flask_app'
             self.charset = 'utf8'
         elif env == 'prod':
